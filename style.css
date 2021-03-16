@@ -1,3 +1,34 @@
+@media (max-width: 768px) {
+  .project {
+    display: none;
+  }
+
+  .description {
+    margin: 20px;
+  }
+
+  h1, h2, h3, h4, p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h4 {
+    font-size: 34px;
+  }
+  .project-link {
+    text-align: center;
+    display: block;
+  }
+  .contact-header {
+    font-size: 34px;
+  }
+
+  .email a {
+    font-size: 22px;
+  }
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -6,7 +37,6 @@
 
 .content {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -105,28 +135,4 @@ p {
 
 #contact {
   margin: 50px;
-}
-
-@media (max-width: 768px) {
-  .project {
-    display: none;
-  }
-
-  .description {
-    margin: 20px;
-  }
-
-  h1, h2, h3, h4, p {
-    text-align: center;
-  }
-  h1 {
-    font-size: 72px;
-  }
-  h4 {
-    font-size: 34px;
-  }
-  .project-link {
-    text-align: center;
-    display: block;
-  }
 }
